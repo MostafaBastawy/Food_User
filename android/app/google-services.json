@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "855970483775",
+    "project_id": "food-user-1c179",
+    "storage_bucket": "food-user-1c179.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855970483775:android:611fa706e40a834c1ef28a",
+        "android_client_info": {
+          "package_name": "com.mostafabastawyy.food_user_interface"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855970483775-81b3o0stisd2n8ddoc3ag27i3pdsgeho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4Epona7hSroZ-4dv1QEFO61v-kW2QCrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855970483775-81b3o0stisd2n8ddoc3ag27i3pdsgeho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
