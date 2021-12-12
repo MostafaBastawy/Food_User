@@ -37,8 +37,8 @@ https://user-images.githubusercontent.com/81096412/139437191-0541077e-7405-428d-
 
 <table>
   <tr>
-    <td><img src="lib/screen_shots/screenshoot1.jpg" width=270 height=480></td>
-    <td><img src="lib/screen_shots/screenshoot2.jpg" width=270 height=480></td>
+    <td><img src="lib/screen_shots/screenshot1.jpg" width=270 height=480></td>
+    <td><img src="lib/screen_shots/screenshot2.jpg" width=270 height=480></td>
     <td><img src="lib/screen_shots/facebook3.jpg" width=270 height=480></td>
   </tr>
  </table>
