@@ -1,6 +1,6 @@
 # Food Delivery Application (User)
 
-This is a full Social App. I made by using Firebase (Authentication, Firestore Database, Storage),and State Management (Bloc). This app give the user ability to share posts, share stories, chat with other users and edit his profile information & profile picture & cover Picture.
+This is a full Food Delivery App. I made by using Firebase (Authentication, Firestore Database, Storage),and State Management (Bloc). This app give the user ability to ordering a food or any available products & enjoy with offers & ability to pay by master card, visa or cash on delivery, also the user can track his order till he receive it   .
 
 ## Tools
 - Authentication: Firebase Authentication
