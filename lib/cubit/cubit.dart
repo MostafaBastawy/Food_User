@@ -257,7 +257,7 @@ class AppCubit extends Cubit<AppStates> {
   }
 
   File? profileImage;
-  String? profileImageUrl;
+  String profileImageUrl = '';
   var picker = ImagePicker();
 
   Future<void> getProfileImage() async {

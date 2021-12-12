@@ -158,13 +158,14 @@ class EditProfileScreen extends StatelessWidget {
                     condition: state is! AppUserDataUpdateLoadingState,
                     builder: (BuildContext context) => DefaultButton(
                       onPressed: () {
+
                         if (formKey.currentState!.validate()) {
                           cubit.userDataUpdate(
-                            userFullName: nameController.text,
+                            userFullName: nameController.text ,
                             userPhoneNumber: phoneController.text,
-                            userProfileImage: cubit.profileImageUrl!.isNotEmpty
-                                ? cubit.profileImageUrl.toString()
-                                : cubit.userData[0].userProfileImage.toString(),
+                            userProfileImage: cubit.profileImageUrl.toString().isEmpty
+                                ? cubit.userData[0].userProfileImage.toString()
+                                : cubit.profileImageUrl.toString(),
                           );
                         }
                       },
