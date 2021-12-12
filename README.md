@@ -39,14 +39,7 @@ https://user-images.githubusercontent.com/81096412/139437191-0541077e-7405-428d-
   <tr>
     <td><img src="lib/screen_shots/screenshot1.jpg" width=270 height=480></td>
     <td><img src="lib/screen_shots/screenshot2.jpg" width=270 height=480></td>
-    <td><img src="lib/screen_shots/facebook3.jpg" width=270 height=480></td>
   </tr>
  </table>
 
-<table>
-  <tr>
-    <td><img src="lib/screen_shots/facebook4.jpg" width=270 height=480></td>
-    <td><img src="lib/screen_shots/facebook5.jpg" width=270 height=480></td>
-    <td><img src="lib/screen_shots/facebook6.jpg" width=270 height=480></td>
-  </tr>
- </table>
+
