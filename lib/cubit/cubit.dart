@@ -27,7 +27,7 @@ class AppCubit extends Cubit<AppStates> {
   List<String> orderType = ["Delivery", "Pick-up (in 30 minutes)"];
   List<String> paymentMethod = ["Visa Debit Card", "Cash on Delivery"];
   int deliveryFees = 15;
-  int? totalPayment;
+  int? totalPayment  ;
   List<CategoryDataModel> categories = [];
 
   void getCategories() {
@@ -76,6 +76,7 @@ class AppCubit extends Cubit<AppStates> {
       userData.add(UserDataModel.fromJson(event.data()!));
       for (var element in userData[0].userCart) {
         userCart.add(element.toMap());
+        totalPayment = userData[0].userCartTotal;
       }
 
       emit(AppGetUserDataSuccessState());
@@ -181,8 +182,8 @@ class AppCubit extends Cubit<AppStates> {
   void getUserOrders() {
     FirebaseFirestore.instance
         .collection('orders')
-        .where("orderUserUid",
-            isEqualTo: FirebaseAuth.instance.currentUser!.uid)
+        .where("orderReceiverEmail",
+            isEqualTo: userData[0].userEmail)
         .orderBy('orderCreateAt', descending: true)
         .snapshots()
         .listen((event) {
