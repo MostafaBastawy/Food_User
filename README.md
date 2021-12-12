@@ -1,16 +1,52 @@
-# food_user_interface
+# Food Delivery Application (User)
 
-A new Flutter project.
+This is a full Social App. I made by using Firebase (Authentication, Firestore Database, Storage),and State Management (Bloc). This app give the user ability to share posts, share stories, chat with other users and edit his profile information & profile picture & cover Picture.
 
-## Getting Started
+## Tools
+- Authentication: Firebase Authentication
+- Backend: Firebase Firestore
+- State management:
+    - Bloc Design Pattern
 
-This project is a starting point for a Flutter application.
+- Packages:
+    - cupertino_icons
+    - firebase_auth
+    - firebase_core
+    - firebase_database
+    - cloud_firestore
+    - flutter_bloc
+    - bloc
+    - shared_preferences
+    - conditional_builder_null_safety
+    - flutter_styled_toast
+    - form_field_validator
+    - group_radio_button
+    - intl
+    - dio
+    - flutter_stripe
+    - image_picker
+    - firebase_storage
+    - google_sign_in
+   
 
-A few resources to get you started if this is your first Flutter project:
+## Video
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+https://user-images.githubusercontent.com/81096412/139437191-0541077e-7405-428d-a62c-af63a8300d4b.mp4
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+
+<table>
+  <tr>
+    <td><img src="lib/screen_shots/screenshoot1.jpg" width=270 height=480></td>
+    <td><img src="lib/screen_shots/screenshoot2.jpg" width=270 height=480></td>
+    <td><img src="lib/screen_shots/facebook3.jpg" width=270 height=480></td>
+  </tr>
+ </table>
+
+<table>
+  <tr>
+    <td><img src="lib/screen_shots/facebook4.jpg" width=270 height=480></td>
+    <td><img src="lib/screen_shots/facebook5.jpg" width=270 height=480></td>
+    <td><img src="lib/screen_shots/facebook6.jpg" width=270 height=480></td>
+  </tr>
+ </table>
